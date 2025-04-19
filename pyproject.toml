@@ -16,6 +16,8 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = ">=3.12"
+ccxt = "^4.4.75"
+dotenv = "^0.9.9"
 
 [tool.poetry.urls]
 Homepage = "https://github.com/yourusername/kryptorozliczator"

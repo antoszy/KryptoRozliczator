@@ -3,8 +3,11 @@
     ".git",
     ".venv",
     ".env",
+    ".denv",
     "**/.env",
+    "**/.denv",
     "**/.env.*",
+    "**/.denv.*",
     ".cache",
     ".ruff_cache",
     "__pycache__",
@@ -13,6 +16,7 @@
     "*.pyc"
   ],
   "ignoreFiles": [
-    ".env"
+    ".env",
+    ".denv"
   ]
 }
