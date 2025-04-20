@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 
 class ZondaInterface:
     def __init__(self):
+        self.exchange_name = "zonda"
         load_dotenv()
         api_key = os.getenv("ZONDA_API_KEY")
         api_secret = os.getenv("ZONDA_API_SECRET")
