@@ -15,10 +15,12 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = ">=3.12"
+python = ">=3.12,<4"
 ccxt = "^4.4.75"
 dotenv = "^0.9.9"
 pandas = "^2.2.3"
+bip32utils = "^0.3.post4"
+web3 = "^7.10.0"
 
 [tool.poetry.urls]
 Homepage = "https://github.com/yourusername/kryptorozliczator"

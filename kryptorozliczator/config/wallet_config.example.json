@@ -1,0 +1,40 @@
+{
+    "version": "1.0",
+    "wallets": [
+        {
+            "name": "Main Wallet",
+            "addresses":{
+                "bitcoin": [
+                    "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa",
+                    "1A1zP1eP5QGefi2DMPTfTL5SLlv7DivfNa"
+                ],
+                "bitcoin_xpub": [
+                    "xpub661MyMwAqRbcFtXgS5sYJABqqG9KY3eFQCE1canF2UFqaruF95nyJvD45SgcghicwLvvKr5yYtN31bQf3gfk1ZHsvz9Wz86dQSFu2d41fR7yn",
+                    "xpub661MyMwAqRbcFtXgS5sYJABqqG9KY3eFQCE1canF2UFqaruF95nyJvD45SgcghicwLvvKr5yYtN31bQf3gfk1ZHsvz9Wz86dQSFu2d41fR7yn"
+                ],
+                "ethereum": [
+                    "0x742d35Cc6634C0532925a3b844Bc454e4438f44e"
+                ],
+                "ethereum_pub": [
+                    "030aa8f77429012fe89af2c0ba521b29290e711155df9a180ff497cffaaef3c5b4"
+                ]
+            }
+        },
+        {
+            "name": "Trading Wallet",
+            "addresses":{
+                "bitcoin": [
+                    "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNc",
+                    "1A1zP1eP5QGefi2DMPTfTL5SLlv7DivfNb"
+                ],
+                "ethereum": [
+                    "0x742d35Cc6634C0532925a3b844Bc454e4438f44f"
+                ]
+            }
+        }
+    ],
+    "metadata": {
+        "last_updated": "2025-04-27",
+        "description": "Wallet configuration with addresses grouped by type"
+    }
+}

@@ -3,6 +3,7 @@
     ".git",
     ".venv",
     ".env",
+    "kryptorozliczator/config/wallet_config.json",
     ".denv",
     "**/.env",
     "**/.denv",
@@ -17,6 +18,7 @@
   ],
   "ignoreFiles": [
     ".env",
-    ".denv"
+    ".denv",
+    "config/wallet_config.json"
   ]
 }

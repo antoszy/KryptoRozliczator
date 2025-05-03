@@ -3,3 +3,6 @@
 .denv
 **/.env
 **/.denv
+
+# Private configuraton files
+kryptorozliczator/config/wallet_config.json
