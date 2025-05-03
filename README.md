@@ -23,7 +23,13 @@ cd kryptorozliczator
 poetry install
 ```
 
-3. Install pre-commit hooks:
+3. Install Jupyter Notebook (if not included in dependencies):
+
+```bash
+poetry add jupyter notebook
+```
+
+4. Install pre-commit hooks:
 
 ```bash
 poetry run pre-commit install
@@ -65,3 +71,14 @@ kryptorozliczator/
 ├── .pre-commit-config.yaml # Pre-commit hooks configuration
 └── README.md             # This file
 ```
+
+## Running the Application
+
+To start the application:
+
+```bash
+cd kryptorozliczator
+poetry run jupyter notebook rozlicz.ipynb
+```
+
+This will open the main notebook interface in your browser, where you can run the tax calculation process.

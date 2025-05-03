@@ -43,4 +43,4 @@ def get_nbp_exchange_rate(currency_code: str, date: datetime) -> float:
             yesterday = date - timedelta(days=1)
             return get_nbp_exchange_rate(currency_code, yesterday)
     except Exception as e:
-        raise Exception(f"Failed to get exchange rate for {currency_code}: {e!s}") from e
+        raise Exception(f"Failed to get exchange rate for {currency_code}: {e}") from e
